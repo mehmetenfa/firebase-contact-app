@@ -2,7 +2,7 @@ import "./App.css";
 import Contacts from "./components/contacts/Contacts";
 import FormComponent from "./components/form/FormComponent";
 import { useState } from "react";
-import { AddUser, UpdateUser } from "./utils/functions";
+import { AddUser, UpdateUser } from "../src/utils/function";
 import { ToastContainer } from "react-toastify";
 
 const initialValues = {
